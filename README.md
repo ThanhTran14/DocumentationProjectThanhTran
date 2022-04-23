@@ -22,6 +22,8 @@ You can install the files that you need here: https://github.com/ThanhTran14/Tic
 
 ![Photos for Documentation](./Step1.jpg)
 
+![Photos for Documentation](./Step1pt2.jpg)
+
 
 2. You would either download the files as a zip and then you would move the files into the command prompt or you can git clone into your file.
 
