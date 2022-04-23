@@ -1,14 +1,7 @@
----
+
 title: "TicTacToe" 
 subtitle: "Documentation Project"
 author: "Thanh Tran"
-date: 'Last rendered on `r format(Sys.time(), "%A, %B %d, %Y @ %I:%M %p")`'
-output: 
-  html_document: 
-    theme: yeti
-    highlight: textmate
-    code_folding: hide
----
 
 
 #Introduction
