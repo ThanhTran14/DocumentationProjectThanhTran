@@ -25,7 +25,9 @@ You can install the files that you need here: https://github.com/ThanhTran14/Tic
 ![Photos for Documentation](./Step1pt2.jpg)
 
 
-2. You would either download the files as a zip and then you would move the files into the command prompt or you can git clone into your file.
+2. You would either download the files as a zip (green arrow) and then you would move the files into the command prompt or you can git clone into your file (red arrow).
+
+![](./Step2.jpg)
 
 3. You would use this line to compile the program : g++ -Wall -Werror -o tictactoe main.cc tictactoe.cc 
 
