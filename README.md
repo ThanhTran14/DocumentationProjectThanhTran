@@ -20,7 +20,7 @@ You can install the files that you need here: https://github.com/ThanhTran14/Tic
 
 1. There are multiple ways to play this game. You can download two different programs which is Putty or VS Code. VS Code is a nice program if you want to learn how to program because it gives you hints and gives you arrow messages. 
 
-![Photos for Documentation](Project/Step1.jpg)
+![Photos for Documentation](./Step1.jpg)
 
 
 2. You would either download the files as a zip and then you would move the files into the command prompt or you can git clone into your file.
