@@ -6,7 +6,7 @@ Documentation Project
 By: Thanh Tran
 
 
-#Introduction
+Introduction
 
 I am doing my documentation project on a TicTacToe program that I have. My implementation is only Player vs Player so you need to have a friend to play this game with. Each player would get their turns and it would alternate between you and your friend. You can use this program whenever you want to play TicTacToe on the computer together.
 
@@ -16,19 +16,25 @@ I am doing my documentation project on a TicTacToe program that I have. My imple
 You can install the files that you need here: https://github.com/ThanhTran14/TicTacToe
 
 
-#How to Start it up
+#How to Start it Up
 
 1. There are multiple ways to play this game. You can download two different programs which is Putty or VS Code. VS Code is a nice program if you want to learn how to program because it gives you hints and gives you arrow messages. 
 
 ![Photos for Documentation](./Step1.jpg)
 
 ![Photos for Documentation](./Step1pt2.jpg)
-
 2. If you are ASU student you can access to the student2 machine to sign in you have userID@student2.cs.appstate.edu then your password should default to your BannerID. 
 
 3 (Putty). On Putty you would see the header that says "Host Name (or IP Address)" you put the userID@student.cs.appstate.edu in there. Then a window should pop up and ask for your password and you just type in your BannerID (unless you changed it). When you type your password nothing would show up but it is reading it in.
 
-3 (VS Code). You would need to download a extension called RemoteSH and then you would hit the green icon on the bottom left and then you should see a option that says "Connect to Host". Then it would ask for your Host ID and you would type your userID@student2.cs.appstate.edu then it would ask for your password which should be your BannerID. It would ask your multiple times to enter your password.
+![Real Step 2](https://user-images.githubusercontent.com/97632664/165152707-46b8eaad-6c7e-4e9e-847d-f77fc0f747c5.jpg)
+
+3 (VS Code). You would need to download a extension called RemoteSSH and you install it. Then you would hit the green icon on the bottom left and then you should see a option that says "Connect to Host". Then it would ask for your Host ID and you would type your userID@student2.cs.appstate.edu then it would ask for your password which should be your BannerID. It would ask your multiple times to enter your password.
+
+![Step3VS1](https://user-images.githubusercontent.com/97632664/165152672-9617ae97-3e32-4679-91c4-581fff23e7a1.jpg)
+
+
+![Step3VS2](https://user-images.githubusercontent.com/97632664/165152590-02e8c6ad-424a-49de-aefb-252311f9d22c.jpg)
 
 4. You can make a directory if you want to organize it. To do this: mkdir whatevernameyouwant
 
@@ -53,5 +59,6 @@ You can install the files that you need here: https://github.com/ThanhTran14/Tic
 8. You can just play til someone wins or it ends in a tie. 
 
 #Functions
+
 
 
