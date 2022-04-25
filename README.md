@@ -24,12 +24,23 @@ You can install the files that you need here: https://github.com/ThanhTran14/Tic
 
 ![Photos for Documentation](./Step1pt2.jpg)
 
+2. If you are ASU student you can access to the student2 machine to sign in you have userID@student2.cs.appstate.edu then your password should default to your BannerID. 
 
-2. You would either download the files as a zip (green arrow) and then you would move the files into the command prompt or you can git clone into your file (red arrow).
+3 (Putty). On Putty you would see the header that says "Host Name (or IP Address)" you put the userID@student.cs.appstate.edu in there. Then a window should pop up and ask for your password and you just type in your BannerID (unless you changed it). When you type your password nothing would show up but it is reading it in.
+
+3 (VS Code). You would need to download a extension called RemoteSH and then you would hit the green icon on the bottom left and then you should see a option that says "Connect to Host". Then it would ask for your Host ID and you would type your userID@student2.cs.appstate.edu then it would ask for your password which should be your BannerID. It would ask your multiple times to enter your password.
+
+4. You can make a directory if you want to organize it. To do this: mkdir whatevernameyouwant
+
+
+
+3. You would either download the files as a zip (green arrow) and then you would move the files into the command prompt or you can git clone into your file (red arrow and what I recommend you do). If you downloaded the zip you have to move it using WinSCP
 
 ![](./Step2.jpg)
 
 3. You would use this line to compile the program : g++ -Wall -Werror -o tictactoe main.cc tictactoe.cc 
+
+1[](./
 
 4. To run the program you can either use ./tictactoe or tictactoe.
 
