@@ -61,4 +61,27 @@ You can install the files that you need here: https://github.com/ThanhTran14/Tic
 #Functions
 
 
+clearBoard()
+It the method we use to clear the board so we just make it into a empty space
+
+getPlayerInfo()
+It the method that would ask for you information and it accepts your information through the keyboard
+
+printBoard()
+It is the method to print out the board so you can see how it looks like. Then we made it so you can put the X or O there.
+
+printTurnHeader() 
+It is the method to let you know whoever turn it is.
+
+getMove()
+It is the method to accept your import and it would check if the move is valid. If someone already placed their O or X that it would say it invalid and ask you again to place your move. It would also checked if you enter the right format.
+
+checkWin()
+It is the method where it checks if you win or not.
+
+checkTie()
+It is the method where it checks if you have a tie.
+
+runGame()
+It is the method that makes all these methods work together and in order. 
 
