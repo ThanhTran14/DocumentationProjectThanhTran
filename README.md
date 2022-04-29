@@ -29,12 +29,24 @@ You can install the files that you need here: https://github.com/ThanhTran14/Tic
 
 ![Real Step 2](https://user-images.githubusercontent.com/97632664/165152707-46b8eaad-6c7e-4e9e-847d-f77fc0f747c5.jpg)
 
-3 (VS Code). You would need to download a extension called RemoteSSH and you install it. Then you would hit the green icon on the bottom left and then you should see a option that says "Connect to Host". Then it would ask for your Host ID and you would type your userID@student2.cs.appstate.edu then it would ask for your password which should be your BannerID. It would ask your multiple times to enter your password.
+3 (VS Code). You would need to download a extension called RemoteSSH and you install it. Then you would hit the green icon on the bottom left and then you should see a option that says "Connect to Host". Then it would ask for your Host ID and you would type your userID@student2.cs.appstate.edu then it would ask for your password which should be your BannerID. It would ask your multiple times to enter your password. 
+
+Extension > Search Bar > type in Remote SSH > install it > click green bottom left > Connect to Host > type in appstateuserID@student2.cs.appstate.edu > your password (default your BannerID) > hit Explorer > click ok (blue arrow) > new terminal (red arrow)
+
+The terminal is like Putty part
+
+Below are some photos
 
 ![Step3VS1](https://user-images.githubusercontent.com/97632664/165152672-9617ae97-3e32-4679-91c4-581fff23e7a1.jpg)
-
-
 ![Step3VS2](https://user-images.githubusercontent.com/97632664/165152590-02e8c6ad-424a-49de-aefb-252311f9d22c.jpg)
+![Step3VS3](https://user-images.githubusercontent.com/97632664/165866168-ad848105-876b-4a96-8656-5f4d9df0d446.jpg)
+![Step3VS4](https://user-images.githubusercontent.com/97632664/165866132-4e44904a-6c97-46c4-8af4-4c58c1bed575.jpg)
+![Step3VS5](https://user-images.githubusercontent.com/97632664/165866184-b311f390-522b-4519-a02f-d8cff757eeb1.jpg)
+![Step3VS6](https://user-images.githubusercontent.com/97632664/165866189-6b5a2371-414b-4b84-99cb-0f5332a12161.jpg)
+![Step3VS67jpg](https://user-images.githubusercontent.com/97632664/165866663-92a4cfd7-cc25-444c-bae5-ae9857cd0b99.jpg)
+![Step3VS8jpg](https://user-images.githubusercontent.com/97632664/165866202-b0723aeb-bf4e-4b33-bc26-31802c08d415.jpg)
+
+
 
 4. You can make a directory if you want to organize it. To do this: mkdir whatevernameyouwant
 
