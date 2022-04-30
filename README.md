@@ -11,12 +11,12 @@ Introduction
 This is a documentation of a tictactoe program. This implementation is a Player vs Player so you need to have a friend to play with. Each player would get their turns and it would alternate unti it eithers end in a win or tie.
 
 
-#How to install
+How to install
 
 Installed need files here: https://github.com/ThanhTran14/TicTacToe
 
 
-#How to Start it Up
+How to Start it Up
 
 1. Need to installed either Putty or VSCode.
 
@@ -61,21 +61,22 @@ Then move the unzipped files into your directory by holding left click and dragg
 ![drag](https://user-images.githubusercontent.com/97632664/166092202-a30f990d-b771-4a63-81f8-0430cda15240.jpg)
 
 
+To use Tictactoe program
 
-5. Use this line to compile the program : g++ -Wall -Werror -o tictactoe main.cc tictactoe.cc 
+1. Use this line to compile the program : g++ -Wall -Werror -o tictactoe main.cc tictactoe.cc 
 ![compile](https://user-images.githubusercontent.com/97632664/166091865-10100696-dec4-4275-b4ab-fb345ade5d2c.jpg)
 
-6. To run the program use ./tictactoe or tictactoe.
+2. To run the program use ./tictactoe or tictactoe.
 
-7. It would ask for Player 1 information it would ask for your first name and hit enter then it would ask for your age then hit enter.
+3. It would ask for Player 1 information it would ask for your first name and hit enter then it would ask for your age then hit enter.
 ![run](https://user-images.githubusercontent.com/97632664/166091951-7b580774-53ce-4be4-b383-6aefff93ac13.jpg)
 
-8. It would do the same thing for Player 2
+4. It would do the same thing for Player 2
 
-9. Make a valid command which would be RXCX the R meaning Row and C meaning Column, the program will keep repeating until a valid command.
+5. Make a valid command which would be RXCX the R meaning Row and C meaning Column, the program will keep repeating until a valid command.
 ![yourTurn](https://user-images.githubusercontent.com/97632664/166091966-caa61b10-b82c-43c3-bdb2-44639d51ab0a.jpg)
 
-10. The game will end if there is a tie or someone wins.
+6. The game will end if there is a tie or someone wins.
 
 
 #Functions of TicTacToe.
