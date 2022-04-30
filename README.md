@@ -1,5 +1,5 @@
 
-TicTacToe   Github page: https://github.com/ThanhTran14/DocumentationProjectThanhTran 
+TicTacToe                                                                    Github page: https://github.com/ThanhTran14/DocumentationProjectThanhTran 
 
 Documentation Project
 
