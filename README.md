@@ -65,17 +65,25 @@ To use Tictactoe program
 1. Use this line to compile the program : g++ -Wall -Werror -o tictactoe main.cc tictactoe.cc 
 ![compile](https://user-images.githubusercontent.com/97632664/166091865-10100696-dec4-4275-b4ab-fb345ade5d2c.jpg)
 
-2. To run the program use ./tictactoe or tictactoe.
+2. To run the program use: ./tictactoe
 
 3. It would ask for Player 1 information it would ask for your first name and hit enter then it would ask for your age then hit enter.
 ![run](https://user-images.githubusercontent.com/97632664/166091951-7b580774-53ce-4be4-b383-6aefff93ac13.jpg)
 
 4. It would do the same thing for Player 2
+![player2](https://user-images.githubusercontent.com/97632664/166093926-b1943979-9256-4a9b-9e6c-1d9a1bac491e.jpg)
 
-5. Make a valid command which would be RXCX the R meaning Row and C meaning Column, the program will keep repeating until a valid command.
+5. After getting players info, it would be player 1 turn and program would print out board.
+![pic](https://user-images.githubusercontent.com/97632664/166094175-a366763b-eb7e-41d9-ab88-68755a230c4e.jpg)
+
+6. Make a valid command which would be RXCX the R meaning Row and C meaning Column, the program will inform how to fix your input
 ![yourTurn](https://user-images.githubusercontent.com/97632664/166091966-caa61b10-b82c-43c3-bdb2-44639d51ab0a.jpg)
 
-6. The game will end if there is a tie or someone wins.
+Example of invalid inputs: 
+![invalid](https://user-images.githubusercontent.com/97632664/166093985-23ce772a-b7f2-4230-a132-00b6bcf5fec0.jpg)
+![invalid2](https://user-images.githubusercontent.com/97632664/166094025-a2dd5a88-6185-48b6-8c83-dba2d6e4e711.jpg)
+
+7. The game will end if there is a tie or someone wins. To quit the program hit Control + C.
 
 
 Functions of TicTacToe.
