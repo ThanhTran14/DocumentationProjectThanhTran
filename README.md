@@ -1,5 +1,5 @@
 
-TicTacToe   Github page: https://github.com/ThanhTran14/DocumentationProjectThanhTran (Don't know if the pictures would work)
+TicTacToe   Github page: https://github.com/ThanhTran14/DocumentationProjectThanhTran 
 
 Documentation Project
 
@@ -50,47 +50,64 @@ Below are some photos
 
 (Optional) Can make a directory to make things organize. To do this: mkdir whatevernameyouwant
 
-3. Either download the files as a zip (green arrow) and then move the files into the command prompt or git clone into your file (red arrow). If downloaded the zip install WinSCP to move files into your directory/command line.
-![](./Step2.jpg)
+4. Either download the files as a zip (green arrow) and then move the files into the command prompt or git clone into your file (red arrow). If downloaded the zip install WinSCP to move files into your directory/command line. Need to unzip the files.
 
-3. Use this line to compile the program : g++ -Wall -Werror -o tictactoe main.cc tictactoe.cc 
+When running WinSCP there should be a window. For "Hostname" enter student2.cs.appstate.edu. Then for user name enter your userID from Appstate and hit login. Then it would ask for your password.
+![winSCP1](https://user-images.githubusercontent.com/97632664/166092078-a58bca33-4f9f-4850-a5f0-708da5560af5.jpg)
+![passwordwinSCP](https://user-images.githubusercontent.com/97632664/166092096-77f168ba-ffc1-4eec-8a32-4da8f763d0ae.jpg)
 
-1[](./
+Then move the unzipped files into your directory by holding left click and dragging your mouse to the other window.
+![drag](https://user-images.githubusercontent.com/97632664/166092202-a30f990d-b771-4a63-81f8-0430cda15240.jpg)
 
-4. To run the program use ./tictactoe or tictactoe.
 
-5. It would ask for Player 1 information it would ask for your name then it would ask for you age.
 
-6. It would do the same thing for Player 2
+5. Use this line to compile the program : g++ -Wall -Werror -o tictactoe main.cc tictactoe.cc 
+![compile](https://user-images.githubusercontent.com/97632664/166091865-10100696-dec4-4275-b4ab-fb345ade5d2c.jpg)
 
-7. Make a valid command which would be RXCX the R meaning Row and C meaning Column, the program will keep repeating until a valid command.
+6. To run the program use ./tictactoe or tictactoe.
 
-8. The game will end if there is a tie or someone wins.
+7. It would ask for Player 1 information it would ask for your first name and hit enter then it would ask for your age then hit enter.
+![run](https://user-images.githubusercontent.com/97632664/166091951-7b580774-53ce-4be4-b383-6aefff93ac13.jpg)
+
+8. It would do the same thing for Player 2
+
+9. Make a valid command which would be RXCX the R meaning Row and C meaning Column, the program will keep repeating until a valid command.
+![yourTurn](https://user-images.githubusercontent.com/97632664/166091966-caa61b10-b82c-43c3-bdb2-44639d51ab0a.jpg)
+
+10. The game will end if there is a tie or someone wins.
 
 
 #Functions of TicTacToe.
 
 clearBoard()
 It the method we use to clear the board so we just make it into a empty space
+![ClearBoard](https://user-images.githubusercontent.com/97632664/166091788-8a3a9c97-85ee-474a-ae6c-783284a2dc6e.jpg)
 
 getPlayerInfo()
 It the method that would ask for you information and it accepts your information through the keyboard
+![PlayerInfo](https://user-images.githubusercontent.com/97632664/166091791-65836be6-1c0c-476c-a39b-d3854e480c62.jpg)
 
 printBoard()
 It is the method to print out the board so you can see how it looks like. Then we made it so you can put the X or O there.
+![printBoard](https://user-images.githubusercontent.com/97632664/166091793-7e20a17e-2d76-4b99-952c-f5a28da3590b.jpg)
 
 printTurnHeader() 
 It is the method to let you know whoever turn it is.
+![printPlayerInfo](https://user-images.githubusercontent.com/97632664/166091792-627ecdde-1b3d-4bdc-9e80-49b57303d0de.jpg)
 
 getMove()
 It is the method to accept your import and it would check if the move is valid. If someone already placed their O or X that it would say it invalid and ask you again to place your move. It would also checked if you enter the right format.
+![getMove](https://user-images.githubusercontent.com/97632664/166091796-07c92352-6e44-45c7-a50a-9ab16e5c315e.jpg)
 
 checkWin()
 It is the method where it checks if you win or not.
+![checkWin](https://user-images.githubusercontent.com/97632664/166091799-97b5a31b-3d84-4dce-8bf5-23d87569757d.jpg)
 
 checkTie()
 It is the method where it checks if you have a tie.
+![checkTie](https://user-images.githubusercontent.com/97632664/166091801-10858532-d777-489d-b4ab-a3a0c8975a99.jpg)
 
 runGame()
 It is the method that makes all these methods work together and in order. 
+![runGame](https://user-images.githubusercontent.com/97632664/166091803-7b9cf793-3600-4fb1-b4b0-82eb2cdeceb3.jpg)
 
