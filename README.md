@@ -112,7 +112,7 @@ It the method that would ask for players information and it accepts your informa
 
 printBoard()
 
-It is the method to print out the board so you can see how it looks like. Then we made it so you can put the X or O there.
+It is the method to print out the board so you can see how it looks like. 
 ![printBoard](https://user-images.githubusercontent.com/97632664/166091793-7e20a17e-2d76-4b99-952c-f5a28da3590b.jpg)
 
 printTurnHeader() 
@@ -139,4 +139,3 @@ runGame()
 
 It is the method that makes all these methods work together and in order. 
 ![runGame](https://user-images.githubusercontent.com/97632664/166091803-7b9cf793-3600-4fb1-b4b0-82eb2cdeceb3.jpg)
-
