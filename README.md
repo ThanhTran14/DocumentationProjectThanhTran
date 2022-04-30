@@ -74,6 +74,7 @@ To use Tictactoe program
 2. To run the program use: ./tictactoe
 
 3. Enter Player 1 first name and age
+
 ![run](https://user-images.githubusercontent.com/97632664/166091951-7b580774-53ce-4be4-b383-6aefff93ac13.jpg)
 
 4. Enter Player 2 first name and age
@@ -83,10 +84,13 @@ To use Tictactoe program
 5. After Player info is entered, it would be Player 1 turn and board should print
 ![pic](https://user-images.githubusercontent.com/97632664/166094175-a366763b-eb7e-41d9-ab88-68755a230c4e.jpg)
 
-6. Make a valid command which would be RXCX the R meaning Row and C meaning Column, the program will inform how to fix your input
+6. Make a valid command which would be RXCX the R meaning Row and C meaning Column and X being a number between 1 - 3. 
+
 ![yourTurn](https://user-images.githubusercontent.com/97632664/166091966-caa61b10-b82c-43c3-bdb2-44639d51ab0a.jpg)
 
+If invalid command the program will repeat until valid input.
 Example of invalid inputs: 
+
 ![invalid](https://user-images.githubusercontent.com/97632664/166093985-23ce772a-b7f2-4230-a132-00b6bcf5fec0.jpg)
 
 ![invalid2](https://user-images.githubusercontent.com/97632664/166094025-a2dd5a88-6185-48b6-8c83-dba2d6e4e711.jpg)
