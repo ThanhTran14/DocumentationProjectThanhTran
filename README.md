@@ -9,7 +9,7 @@ By: Thanh Tran
 
 Introduction
 
-This is a documentation of a tictactoe program. This implementation is a Player vs Player so you need to have a friend to play with. Each player would get their turns and it would alternate unti it eithers end in a win or tie. 
+This is a documentation of a tictactoe program. This implementation is a Player vs Player so you need to have a friend to play with. Each player would get their turns and it would alternate unti it eithers end in a win or tie. This documetation only works with students from Appalachian State University.
 
 
 How to install
@@ -17,7 +17,7 @@ How to install
 Installed need files here: https://github.com/ThanhTran14/TicTacToe
 
 
-How to Start it Up (ASU Students)
+How to Start it Up
 
 1. Need to installed either Putty or VSCode.
 
