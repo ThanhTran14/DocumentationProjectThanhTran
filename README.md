@@ -30,7 +30,7 @@ How to Start it Up
 
 ![Real Step 2](https://user-images.githubusercontent.com/97632664/165152707-46b8eaad-6c7e-4e9e-847d-f77fc0f747c5.jpg)
 
-3 (VS Code). Downlaod a extenstion called RemoteSSH. Hit the green icon on the bottom left. Hitting these there should be a drop window and hit "Connect to Host". Insert your userID@student2.cs.appstate.edu and password. It may ask multiple times to insert passwrod.
+3 (VS Code). Download a extenstion called RemoteSSH. Hit the green icon on the bottom left. Hitting these there should be a drop window and hit "Connect to Host". Insert your userID@student2.cs.appstate.edu and password. It may ask multiple times to insert passwrod.
 
 
 Extension > Search Bar > type in Remote SSH > install it > click green bottom left > Connect to Host > type in appstateuserID@student2.cs.appstate.edu > your password (default your BannerID) > hit Explorer > click ok (blue arrow) > new terminal (red arrow)
@@ -82,34 +82,42 @@ To use Tictactoe program
 Functions of TicTacToe.
 
 clearBoard()
+
 It the method we use to clear the board so we just make it into a empty space
 ![ClearBoard](https://user-images.githubusercontent.com/97632664/166091788-8a3a9c97-85ee-474a-ae6c-783284a2dc6e.jpg)
 
 getPlayerInfo()
+
 It the method that would ask for you information and it accepts your information through the keyboard
 ![PlayerInfo](https://user-images.githubusercontent.com/97632664/166091791-65836be6-1c0c-476c-a39b-d3854e480c62.jpg)
 
 printBoard()
+
 It is the method to print out the board so you can see how it looks like. Then we made it so you can put the X or O there.
 ![printBoard](https://user-images.githubusercontent.com/97632664/166091793-7e20a17e-2d76-4b99-952c-f5a28da3590b.jpg)
 
 printTurnHeader() 
+
 It is the method to let you know whoever turn it is.
 ![printPlayerInfo](https://user-images.githubusercontent.com/97632664/166091792-627ecdde-1b3d-4bdc-9e80-49b57303d0de.jpg)
 
 getMove()
+
 It is the method to accept your import and it would check if the move is valid. If someone already placed their O or X that it would say it invalid and ask you again to place your move. It would also checked if you enter the right format.
 ![getMove](https://user-images.githubusercontent.com/97632664/166091796-07c92352-6e44-45c7-a50a-9ab16e5c315e.jpg)
 
 checkWin()
+
 It is the method where it checks if you win or not.
 ![checkWin](https://user-images.githubusercontent.com/97632664/166091799-97b5a31b-3d84-4dce-8bf5-23d87569757d.jpg)
 
 checkTie()
+
 It is the method where it checks if you have a tie.
 ![checkTie](https://user-images.githubusercontent.com/97632664/166091801-10858532-d777-489d-b4ab-a3a0c8975a99.jpg)
 
 runGame()
+
 It is the method that makes all these methods work together and in order. 
 ![runGame](https://user-images.githubusercontent.com/97632664/166091803-7b9cf793-3600-4fb1-b4b0-82eb2cdeceb3.jpg)
 
