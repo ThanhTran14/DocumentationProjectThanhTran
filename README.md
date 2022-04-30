@@ -8,70 +8,67 @@ By: Thanh Tran
 
 Introduction
 
-I am doing my documentation project on a TicTacToe program that I have. My implementation is only Player vs Player so you need to have a friend to play this game with. Each player would get their turns and it would alternate between you and your friend. You can use this program whenever you want to play TicTacToe on the computer together.
+This is a documentation of a tictactoe program. This implementation is a Player vs Player so you need to have a friend to play with. Each player would get their turns and it would alternate unti it eithers end in a win or tie.
 
 
 #How to install
 
-You can install the files that you need here: https://github.com/ThanhTran14/TicTacToe
+Installed need files here: https://github.com/ThanhTran14/TicTacToe
 
 
 #How to Start it Up
 
-1. There are multiple ways to play this game. You can download two different programs which is Putty or VS Code. VS Code is a nice program if you want to learn how to program because it gives you hints and gives you arrow messages. 
+1. Need to installed either Putty or VSCode.
 
 ![Photos for Documentation](./Step1.jpg)
 
 ![Photos for Documentation](./Step1pt2.jpg)
+
 2. If you are ASU student you can access to the student2 machine to sign in you have userID@student2.cs.appstate.edu then your password should default to your BannerID. 
 
-3 (Putty). On Putty you would see the header that says "Host Name (or IP Address)" you put the userID@student.cs.appstate.edu in there. Then a window should pop up and ask for your password and you just type in your BannerID (unless you changed it). When you type your password nothing would show up but it is reading it in.
+3 (Putty). On Putty there is a header named "Host Name (or IP Address)" put in your userID@student2.cs.appstate.edu. Another window should pop up asking for your password. 
 
 ![Real Step 2](https://user-images.githubusercontent.com/97632664/165152707-46b8eaad-6c7e-4e9e-847d-f77fc0f747c5.jpg)
 
-3 (VS Code). You would need to download a extension called RemoteSSH and you install it. Then you would hit the green icon on the bottom left and then you should see a option that says "Connect to Host". Then it would ask for your Host ID and you would type your userID@student2.cs.appstate.edu then it would ask for your password which should be your BannerID. It would ask your multiple times to enter your password. 
+3 (VS Code). Downlaod a extenstion called RemoteSSH. Hit the green icon on the bottom left. Hitting these there should be a drop window and hit "Connect to Host". Insert your userID@student2.cs.appstate.edu and password. It may ask multiple times to insert passwrod.
+
 
 Extension > Search Bar > type in Remote SSH > install it > click green bottom left > Connect to Host > type in appstateuserID@student2.cs.appstate.edu > your password (default your BannerID) > hit Explorer > click ok (blue arrow) > new terminal (red arrow)
 
 The terminal is like Putty part
 
 Below are some photos
-
-![Step3VS1](https://user-images.githubusercontent.com/97632664/165152672-9617ae97-3e32-4679-91c4-581fff23e7a1.jpg)
-![Step3VS2](https://user-images.githubusercontent.com/97632664/165152590-02e8c6ad-424a-49de-aefb-252311f9d22c.jpg)
-![Step3VS3](https://user-images.githubusercontent.com/97632664/165866168-ad848105-876b-4a96-8656-5f4d9df0d446.jpg)
-![Step3VS4](https://user-images.githubusercontent.com/97632664/165866132-4e44904a-6c97-46c4-8af4-4c58c1bed575.jpg)
-![Step3VS5](https://user-images.githubusercontent.com/97632664/165866184-b311f390-522b-4519-a02f-d8cff757eeb1.jpg)
-![Step3VS6](https://user-images.githubusercontent.com/97632664/165866189-6b5a2371-414b-4b84-99cb-0f5332a12161.jpg)
-![Step3VS67jpg](https://user-images.githubusercontent.com/97632664/165866663-92a4cfd7-cc25-444c-bae5-ae9857cd0b99.jpg)
-![Step3VS8jpg](https://user-images.githubusercontent.com/97632664/165866202-b0723aeb-bf4e-4b33-bc26-31802c08d415.jpg)
-
+![Step3VS1R](https://user-images.githubusercontent.com/97632664/166091385-9ac2a54d-859c-434f-a600-2a0daeaabf5f.jpg)
+![Step3VS2R](https://user-images.githubusercontent.com/97632664/166091404-9ab77904-ab1e-4fe5-b598-101df4b128fb.jpg)
+![Step3VS3R](https://user-images.githubusercontent.com/97632664/166091418-f04aea12-bae4-4fa1-aed4-60304278899b.jpg)
+![Step3VS4R](https://user-images.githubusercontent.com/97632664/166091422-23571abd-4e57-48da-be08-ed03e22eac3c.jpg)
+![Step3VS5R](https://user-images.githubusercontent.com/97632664/166091448-79a779ac-beae-47af-a029-bdd61f1fab89.jpg)
+![Step3VS6R](https://user-images.githubusercontent.com/97632664/166091467-dc72a197-d573-4b6c-b058-363cac699011.jpg)
+![Step3VS67jpgR](https://user-images.githubusercontent.com/97632664/166091490-94cf5cda-3b3b-4cfc-af52-305bb90abb05.jpg)
+![Step3VS8jpgR](https://user-images.githubusercontent.com/97632664/166091506-28f5ee47-0555-4cde-aac1-5961ea81854d.jpg)
 
 
-4. You can make a directory if you want to organize it. To do this: mkdir whatevernameyouwant
+(Optional) Can make a directory to make things organize. To do this: mkdir whatevernameyouwant
 
-
-
-3. You would either download the files as a zip (green arrow) and then you would move the files into the command prompt or you can git clone into your file (red arrow and what I recommend you do). If you downloaded the zip you have to move it using WinSCP
-
+3. Either download the files as a zip (green arrow) and then move the files into the command prompt or git clone into your file (red arrow). If downloaded the zip install WinSCP to move files into your directory/command line.
 ![](./Step2.jpg)
 
-3. You would use this line to compile the program : g++ -Wall -Werror -o tictactoe main.cc tictactoe.cc 
+3. Use this line to compile the program : g++ -Wall -Werror -o tictactoe main.cc tictactoe.cc 
 
 1[](./
 
-4. To run the program you can either use ./tictactoe or tictactoe.
+4. To run the program use ./tictactoe or tictactoe.
 
 5. It would ask for Player 1 information it would ask for your name then it would ask for you age.
 
 6. It would do the same thing for Player 2
 
-7. It would tell you how to make a valid command which would be RXCX the R meaning Row and C meaning Column.
+7. Make a valid command which would be RXCX the R meaning Row and C meaning Column, the program will keep repeating until a valid command.
 
-8. You can just play til someone wins or it ends in a tie. 
+8. The game will end if there is a tie or someone wins.
 
-#Functions
 
+#Functions of TicTacToe.
 
 clearBoard()
 It the method we use to clear the board so we just make it into a empty space
