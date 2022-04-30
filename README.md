@@ -9,15 +9,17 @@ By: Thanh Tran
 
 Introduction
 
-This is a documentation of a tictactoe program. This implementation is a Player vs Player so you need to have a friend to play with. Each player would get their turns and it would alternate unti it eithers end in a win or tie. This documetation only works with students from Appalachian State University.
+This is a documentation of a tictactoe program. This implementation is a Player vs Player so you need to have a friend to play with. Each player would get their turns and it would alternate until it eithers end in a win, tie, or quit the program. This documentation only works with students from Appalachian State University.
 
 
 How to install
 
-Installed need files here: https://github.com/ThanhTran14/TicTacToe
+
+Install needed files here: https://github.com/ThanhTran14/TicTacToe
 
 
-How to Start it Up
+How to Set up
+
 
 1. Need to installed either Putty or VSCode.
 
@@ -29,7 +31,7 @@ How to Start it Up
 
 ![Real Step 2](https://user-images.githubusercontent.com/97632664/165152707-46b8eaad-6c7e-4e9e-847d-f77fc0f747c5.jpg)
 
-2 (VS Code). Download a extenstion called RemoteSSH. Hit the green icon on the bottom left. Hitting these there should be a drop window and hit "Connect to Host". Insert your userID@student2.cs.appstate.edu and password. It may ask multiple times to insert passwrod.
+2 (VS Code). Download a extenstion called RemoteSSH. Click the green icon on the bottom left. There should be a drop window and hit "Connect to Host". Insert your userID@student2.cs.appstate.edu and password. It may ask multiple times to insert passwrod.
 
 
 Extension > Search Bar > type in Remote SSH > install it > click green bottom left > Connect to Host > type in appstateuserID@student2.cs.appstate.edu > your password (default your BannerID) > hit Explorer > click ok (blue arrow) > new terminal (red arrow)
@@ -59,8 +61,12 @@ When running WinSCP there should be a window. For "Hostname" enter student2.cs.a
 Then move the unzipped files into your directory by holding left click and dragging your mouse to the other window.
 ![drag](https://user-images.githubusercontent.com/97632664/166092202-a30f990d-b771-4a63-81f8-0430cda15240.jpg)
 
+To use git clone into your command use: git clone copyandpastetheredarrowcontent 
+![clone](https://user-images.githubusercontent.com/97632664/166095190-2b8c5ae7-afcc-4a0b-ae29-f4bc56588332.jpg)
+
 
 To use Tictactoe program
+
 
 1. Use this line to compile the program : g++ -Wall -Werror -o tictactoe main.cc tictactoe.cc 
 ![compile](https://user-images.githubusercontent.com/97632664/166091865-10100696-dec4-4275-b4ab-fb345ade5d2c.jpg)
