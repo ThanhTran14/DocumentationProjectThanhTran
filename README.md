@@ -79,7 +79,7 @@ To use Tictactoe program
 6. The game will end if there is a tie or someone wins.
 
 
-#Functions of TicTacToe.
+Functions of TicTacToe.
 
 clearBoard()
 It the method we use to clear the board so we just make it into a empty space
