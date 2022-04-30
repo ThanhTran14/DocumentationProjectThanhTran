@@ -51,6 +51,7 @@ Below are some photos
 (Optional) Can make a directory to make things organize. To do this: mkdir whatevernameyouwant
 
 4. Either download the files as a zip (green arrow) and then move the files into the command prompt or git clone into your file (red arrow). If downloaded the zip install WinSCP to move files into your directory/command line. Need to unzip the files.
+![](Step2.jpg)
 
 When running WinSCP there should be a window. For "Hostname" enter student2.cs.appstate.edu. Then for user name enter your userID from Appstate and hit login. Then it would ask for your password.
 ![winSCP1](https://user-images.githubusercontent.com/97632664/166092078-a58bca33-4f9f-4850-a5f0-708da5560af5.jpg)
