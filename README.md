@@ -8,7 +8,7 @@ By: Thanh Tran
 
 Introduction
 
-This is a documentation of a tictactoe program. This implementation is a Player vs Player so you need to have a friend to play with. Each player would get their turns and it would alternate unti it eithers end in a win or tie.
+This is a documentation of a tictactoe program. This implementation is a Player vs Player so you need to have a friend to play with. Each player would get their turns and it would alternate unti it eithers end in a win or tie. 
 
 
 How to install
@@ -16,7 +16,7 @@ How to install
 Installed need files here: https://github.com/ThanhTran14/TicTacToe
 
 
-How to Start it Up
+How to Start it Up (ASU Students)
 
 1. Need to installed either Putty or VSCode.
 
@@ -24,13 +24,11 @@ How to Start it Up
 
 ![Photos for Documentation](./Step1pt2.jpg)
 
-2. If you are ASU student you can access to the student2 machine to sign in you have userID@student2.cs.appstate.edu then your password should default to your BannerID. 
-
-3 (Putty). On Putty there is a header named "Host Name (or IP Address)" put in your userID@student2.cs.appstate.edu. Another window should pop up asking for your password. 
+2 (Putty). On Putty there is a header named "Host Name (or IP Address)" put in your userID@student2.cs.appstate.edu. Another window should pop up asking for your password. 
 
 ![Real Step 2](https://user-images.githubusercontent.com/97632664/165152707-46b8eaad-6c7e-4e9e-847d-f77fc0f747c5.jpg)
 
-3 (VS Code). Download a extenstion called RemoteSSH. Hit the green icon on the bottom left. Hitting these there should be a drop window and hit "Connect to Host". Insert your userID@student2.cs.appstate.edu and password. It may ask multiple times to insert passwrod.
+2 (VS Code). Download a extenstion called RemoteSSH. Hit the green icon on the bottom left. Hitting these there should be a drop window and hit "Connect to Host". Insert your userID@student2.cs.appstate.edu and password. It may ask multiple times to insert passwrod.
 
 
 Extension > Search Bar > type in Remote SSH > install it > click green bottom left > Connect to Host > type in appstateuserID@student2.cs.appstate.edu > your password (default your BannerID) > hit Explorer > click ok (blue arrow) > new terminal (red arrow)
@@ -50,7 +48,7 @@ Below are some photos
 
 (Optional) Can make a directory to make things organize. To do this: mkdir whatevernameyouwant
 
-4. Either download the files as a zip (green arrow) and then move the files into the command prompt or git clone into your file (red arrow). If downloaded the zip install WinSCP to move files into your directory/command line. Need to unzip the files.
+3. Either download the files as a zip (green arrow) and then move the files into the command prompt or git clone into your file (red arrow). If downloaded the zip install WinSCP to move files into your directory/command line. Need to unzip the files.
 ![](Step2.jpg)
 
 When running WinSCP there should be a window. For "Hostname" enter student2.cs.appstate.edu. Then for user name enter your userID from Appstate and hit login. Then it would ask for your password.
